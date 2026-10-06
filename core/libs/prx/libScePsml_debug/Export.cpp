@@ -30,6 +30,11 @@ std::int32_t APS5_VABI scePsmlMfsrGetDispatchMfsrPacket1100(void* context, void*
  return SCE_PSML_ERROR_NOT_INITIALIZED;
 }
 
+int APS5_VABI scePsmlMfsrGetDispatchMfsrPacket1000() {
+ NotImplemented_nid_no_patch(__func__);
+ return 0;
+}
+
 APS5_EXPORT("+2KpvixvL6E", scePsmlUnknown__P2KpvixvL6E);
 int APS5_VABI scePsmlUnknown__P2KpvixvL6E() {
  NotImplemented_nid_no_patch(__func__);
